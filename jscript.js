@@ -13,6 +13,7 @@ y = 0;
 x = 1;
 while (x <= 100) {
   y = y + x;
+  console.log(y);
   x++;
 }
 
