@@ -2,8 +2,8 @@ function sumar(a, b) {
   return a + b;
 }
 
-let y = 0;
-for (let x = 1; x <= 100; x++) {
+var y = 0;
+for (var x = 1; x <= 100; x++) {
   y = y + x;
 }
 
